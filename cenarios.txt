@@ -6,9 +6,9 @@ Antes de executar os cenários, executar os seguintes passos:
 2. Realizar a consulta select * from mysql.general_log;
 
 Cenário 1:
-	email: a' or 'a' = 'a' limit 1; -- 
+	email: a' or 'a' = 'a' limit 1; # 
 	Também é possível verificar a consulta na tabela general_log (select * from mysql.general_log;)
 	
 Cenário 2:
-	email: allexxrodrguess@gmail.com'; -- 
+	email: allexxrodrguess@gmail.com'; # 
 	Também é possível verificar a consulta na tabela general_log (select * from mysql.general_log;)
